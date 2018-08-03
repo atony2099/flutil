@@ -2,7 +2,7 @@
  * @Author: atony2099 
  * @Date: 2018-08-02 11:25:08 
  * @Last Modified by: atony2099
- * @Last Modified time: 2018-08-02 15:39:58
+ * @Last Modified time: 2018-08-03 17:35:25
  */
 
 const fs = require('fs')
@@ -25,7 +25,7 @@ function loadPath(dir) {
     }
   });
 }
-const dir = path.join(__dirname,'mainmodules')
+const dir = path.join(__dirname,'src')
 loadPath(dir)
 
 module.exports = modules
